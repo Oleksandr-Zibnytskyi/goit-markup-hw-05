@@ -495,7 +495,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 
@@ -540,4 +540,42 @@ body {
 
 .icon-section-footer {
   fill: #f4f4fd;
+}
+
+.footer-container-subscribe {
+  display: flex;
+  margin-left: 80px;
+  flex-direction: column;
+}
+
+.footer-subscribe-par {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.footer-subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-subscribe-input {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background: none;
+  padding-left: 16px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: 0px solid transparent;
 }
