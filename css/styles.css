@@ -499,6 +499,11 @@ body {
   margin-bottom: 16px;
 }
 
+.footer-subscribe-input {
+  line-height: 2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
 .menu-icons-footer {
   gap: 16px;
   display: flex;
@@ -581,6 +586,7 @@ body {
 }
 
 .footer-button {
+  font-family: "Roboto", sans-serif;
   display: inline-flex;
   padding: 8px 24px;
   justify-content: center;
@@ -600,6 +606,7 @@ body {
   display: flex;
   padding: 8px 24px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  min-width: 165px;
 }
 
 .icon-subscribe-footer {
