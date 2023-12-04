@@ -616,7 +616,7 @@ body {
   margin-left: 16px;
 }
 
-.backdrop-open {
+.backdrop-is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
