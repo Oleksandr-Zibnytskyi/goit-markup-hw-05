@@ -754,7 +754,7 @@ body {
   border-color: #4d5ae5;
 }
 
-.feedback-form-own-checkbox-icon {
+.feedback-form-own-checkbox {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -801,7 +801,4 @@ body {
 .feedback-form-submit-btn:focus {
   background-color: #404bbf;
   border: none;
-}
-
-.feedback-form-own-checkbox-icon {
 }
