@@ -611,8 +611,10 @@ body {
 }
 
 .icon-subscribe-footer {
+  font-family: "Roboto", sans-serif;
   fill: #ffffff;
   margin-left: 16px;
+  border-radius: 4px;
 }
 
 .backdrop-open {
