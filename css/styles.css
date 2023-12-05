@@ -811,5 +811,11 @@ body {
 .feedback-form-checkbox:checked
   + .feedback-form-checkbox-label
   > .feedback-form-own-checkbox {
-  opacity: 1;
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.feedback-send {
+  color: #4d5ae5;
 }
