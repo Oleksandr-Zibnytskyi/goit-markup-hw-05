@@ -686,6 +686,10 @@ body {
   margin-bottom: 16px;
 }
 
+.feedback-form-field-wrapper {
+  margin-bottom: 8px;
+}
+
 .feedback-form-field-label {
   display: block;
   color: #8e8f99;
@@ -820,4 +824,8 @@ body {
 
 .feedback-form-checkbox {
   display: none;
+}
+
+.feedback-form-field-wrapper-container {
+  margin-bottom: 16px;
 }
