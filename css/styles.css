@@ -820,3 +820,7 @@ body {
 .feedback-send {
   color: #4d5ae5;
 }
+
+.feedback-form-checkbox {
+  display: none;
+}
