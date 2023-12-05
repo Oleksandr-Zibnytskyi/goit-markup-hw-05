@@ -673,7 +673,6 @@ body {
 }
 
 .modal-close-btn-icon {
-  font-family: "Roboto", sans-serif
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -788,7 +787,6 @@ body {
 }
 
 .feedback-form-submit-btn {
-  font-family: "Roboto", sans-serif
   display: block;
   min-width: 169px;
   padding: 16px 32px;
@@ -803,6 +801,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: "Roboto", sans-serif;
 }
 
 .feedback-form-submit-btn:hover,
