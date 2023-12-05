@@ -687,7 +687,7 @@ body {
 }
 
 .feedback-form-field-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .feedback-form-field-label {
@@ -698,6 +698,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.04em;
   margin-bottom: 4px;
+  margin-bottom: 16px;
 }
 
 .feedback-form-input-wrapper {
