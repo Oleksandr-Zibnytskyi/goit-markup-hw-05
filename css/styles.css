@@ -787,6 +787,7 @@ body {
 }
 
 .feedback-form-submit-btn {
+  font-family: "Roboto", sans-serif
   display: block;
   min-width: 169px;
   padding: 16px 32px;
