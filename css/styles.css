@@ -829,3 +829,7 @@ body {
 .feedback-form-field-wrapper-container {
   margin-bottom: 24px;
 }
+
+.feedback-form-field-wrapper-area {
+  margin-bottom: 16px;
+}
