@@ -818,12 +818,14 @@ body {
   fill: #f4f4fd;
 }
 
-.feedback-send {
-  color: #4d5ae5;
+.feedback-form-checkbox:focus
+  + .feedback-form-checkbox
+  > .feedback-form-own-checkbox {
+  outline: 2px solid rgba(0, 0, 255, 0.5);
 }
 
-.feedback-form-checkbox {
-  display: none;
+.feedback-send {
+  color: #4d5ae5;
 }
 
 .feedback-form-field-wrapper-container {
@@ -832,4 +834,15 @@ body {
 
 .feedback-form-field-wrapper-area {
   margin-bottom: 16px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
